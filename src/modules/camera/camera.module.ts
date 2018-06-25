@@ -6,7 +6,7 @@ import {DesktopCameraService} from './services/desktop-camera.service';
 import {environment} from '../../environments/environment';
 
 export function cameraServiceFactory(): CameraService {
-  return environment.mobile ? new MobileCameraService() : new DesktopCameraService();
+  // TODO: Return camera service for target platform.
 }
 
 @NgModule()

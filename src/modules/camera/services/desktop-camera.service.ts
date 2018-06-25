@@ -1,8 +1,7 @@
 import {Injectable} from '@angular/core';
-import {CameraService} from './camera.service';
 
 @Injectable()
-export class DesktopCameraService extends CameraService {
+export class DesktopCameraService {
 
   private getMediaDevices(): any {
     return ((window.navigator['mozGetUserMedia'] || window.navigator['webkitGetUserMedia']) ? {
