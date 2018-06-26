@@ -8,7 +8,7 @@ Presented at DWX 2018, Nuremberg.
 $ npm i
 ```
 
-Furthermore, you’ll need the platform SDKs for building/running iOS and Android apps. For splash screen and icon generation, please install [https://legacy.imagemagick.org/script/download.php](ImageMagick v6).
+Furthermore, you’ll need the platform SDKs for building/running iOS and Android apps. For splash screen and icon generation, please install [ImageMagick v6](https://legacy.imagemagick.org/script/download.php).
 
 ## Start Cordova build
 
